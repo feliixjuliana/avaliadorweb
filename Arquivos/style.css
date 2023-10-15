@@ -1,0 +1,43 @@
+body{
+    /* Classe que dá a estrutura de coluna para a página */
+    .estrutura{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* Configuração do icones */
+    .icone{
+        height: 35px;
+        width: 35px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+    /* Classe que dá as dimenções das divs que receberão as informações */
+    .campo{
+        height: 35px;
+        width: 250px;
+        border: 1px solid black;
+    }
+    /* Classe que dá o alinhamento horizontal para alguns elementos */
+    .alinhamento{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    /* Classe que define o tamnho dos selects */
+    .escolha{
+        width:220px;
+    }
+
+}
+
+input#campoTexto{width: 220px;}
+
+aside#iconeVermelho1,#iconeVermelho2{
+    background-image: url("../Icones/iconeVermelho.png");
+}
+aside#iconeVerde1,#iconeVerde2{
+    background-image: url("../Icones/iconeVerde.jpg");
+}
